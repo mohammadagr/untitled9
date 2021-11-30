@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+.totalContent{
+    border: 4px solid lightgray;
+    background-color: #e9e9e9;
+    padding-left: 20px;
+    border-radius: 2px;
+}
+.navbar{
+    background-color: black;
+    width: 73vw;
+    padding: 10px 0px 10px 15px;
+    border-radius: 5px;
+    alignment: center;
+}
+#searchInput {
+    width: 1010px;
+    height: 20px;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+button{
+    background-color: black;
+    color: darkgrey;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 260px;
+    height: 280px;
+}
+
+.content {
+    background-color: white;
+    width: 250px;
+    margin-top: -25px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+.title {
+    font-size: 13px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.IMDBRate {
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.row {
+    display: flex;
+    font-size: 10px;
+    /*padding-right: 20px;*/
+}
+
+.column {
+    flex: 50%;
+    font-size: 10px;
+    text-align: right;
+}
+
